@@ -39,8 +39,6 @@ void function findTheTriggers()
 void function yeet(entity trigger, entity player)
 {
 	vec = < player.GetVelocity().x, player.GetVelocity().y, 2500 >
-	//player.SetVelocity( vec + (player.GetUpVector()*2500) )
-	//vec = < 0, 0, 2500>
 	player.SetVelocity( vec )
-	//player.SetVelocity( (player.GetUpVector()*2500) )
+
 }
