@@ -1,0 +1,23 @@
+{
+	"Name": "skrubslayer.mp_bounce_city",
+	"Description": "Is it a bird? Is it a plane?",
+	"Version": "0.0.1",
+	"RequiredOnClient": true,
+	"Scripts": [
+	    {
+	        "Path": "DisableImpactMarks.nut",
+	        "RunOn": "CLIENT && MAP_mp_bounce_city",
+		"ClientCallback": {
+			"After": "DisableImpactMarks"
+         	}
+	    },
+	    {
+	        "Path": "Yeeter.nut",
+	        "RunOn": "SERVER && MAP_mp_bounce_city",
+		"ServerCallback": {
+			"After": "Yeeter"
+         	}
+	    },
+	    
+	],
+}
