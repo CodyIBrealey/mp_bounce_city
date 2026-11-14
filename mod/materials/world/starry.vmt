@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+    $basetexture world/starry
+    $surfaceprop concrete
+    $selfillum 1
+}
