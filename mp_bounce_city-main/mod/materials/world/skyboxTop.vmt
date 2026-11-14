@@ -1,6 +1,0 @@
-LightmappedGeneric
-{
-    $basetexture world/skyboxTop
-    $surfaceprop concrete
-    $selfillum 1
-}
